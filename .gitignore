@@ -1,0 +1,10 @@
+.vscode/*
+.DS_Store
+build
+local
+node_modules
+.env
+.env.local
+.idea
+dist
+tsconfig.prod.tsbuildinfo

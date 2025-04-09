@@ -1,0 +1,15 @@
+// Copyright (c) DEFI, LDA
+// SPDX-License-Identifier: Apache-2.0
+
+#[allow(unused_use, unused_const, unused_variable)]
+module blizzard::blizzard_event_wrapper;
+
+use sui::event::emit;
+
+// === Structs ===
+
+public struct BlizzardEvent<T: copy + drop>(T) has copy, drop;
+
+public(package) fun emit_event<T: copy + drop>(event: T) {
+    abort 0
+}

@@ -1,0 +1,16 @@
+// Copyright (c) DEFI, LDA
+// SPDX-License-Identifier: Apache-2.0
+
+#[allow(unused_use, unused_const, unused_variable)]
+module blizzard::blizzard_historic_rate;
+
+use blizzard::blizzard_exchange_rate::{empty as empty_rate, new as new_rate, ExchangeRate};
+use sui::table::{Self, Table};
+
+// === Structs ===
+
+public struct HistoricRate has key, store {
+    id: UID,
+    exchange_rate: Table<u32, ExchangeRate>,
+    initial_epoch: u32,
+}
