@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // @dev Taken from https://github.com/Typus-Lab/sips-big_vector/tree/98b65272cb621d2e3ac48ac2dbdc2dd9046857ec/assets/sip-big_vector
-#[allow(unused_use, unused_const, unused_variable)]
+#[allow(unused_use, unused_const, unused_variable, unused_field, unused_let_mut)]
 module blizzard::blizzard_big_vector;
 
 use blizzard::blizzard_errors as errors;

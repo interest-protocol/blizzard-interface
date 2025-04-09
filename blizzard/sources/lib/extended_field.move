@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // @dev Copy from https://github.com/MystenLabs/walrus-docs/blob/main/contracts/walrus/sources/utils/extended_field.move
-#[allow(unused_use, unused_const, unused_variable, unused_field)]
+#[allow(unused_use, unused_const, unused_variable, unused_field, unused_let_mut)]
 module blizzard::blizzard_extended_field;
 
 use sui::dynamic_field as df;

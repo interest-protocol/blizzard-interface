@@ -1,4 +1,4 @@
-#[allow(unused_use, unused_const, unused_variable)]
+#[allow(unused_use, unused_const, unused_variable, unused_field, unused_let_mut)]
 module blizzard_hooks::blizzard_hooks;
 
 use blizzard::{blizzard_protocol::BlizzardStaking, blizzard_withdraw_ix::{Self, IX}};
